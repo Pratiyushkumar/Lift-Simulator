@@ -9,9 +9,47 @@
   </head>
   <body>
     <header>
-      <h1>welcome to Lift simulator</h1>
+      <h1 class="welcome__message">welcome to Lift simulator</h1>
+      <section class="countShow__section">
+        <h3 class="floor__count"></h3>
+        <h3 class="lift__count"></h3>
+      </section>
     </header>
-    <main></main>
+    <main>
+      <section class="input__section">
+        <div class="input__inner__box">
+          <h2 class="input__heading">Enter Input to start</h2>
+          <form id="user_input">
+            <div class="input__fields">
+              <div>
+                <label for="floorInput" class="input_labels"
+                  >Enter The Number Of Floors</label
+                >
+                <input
+                  type="number"
+                  class="floor__input input_from_user"
+                  name="floorInput"
+                  placeholder="enter floor input"
+                />
+              </div>
+              <div>
+                <label for="liftInput" class="input_labels"
+                  >Enter The Number Of Lifts</label
+                >
+                <input
+                  type="number"
+                  class="lift__input input_from_user"
+                  name="liftInput"
+                  placeholder="enter Lift input"
+                />
+              </div>
+              <button type="submit" class="submit__btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="output__section"></section>
+    </main>
     <script src="./JS/index.js"></script>
   </body>
 </html>
