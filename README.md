@@ -2,6 +2,6 @@
 
 ---
 
-## Create a web app where you can simulate lift mechanics for a client
+Create a web app where you can simulate lift mechanics for a client
 
 ---
